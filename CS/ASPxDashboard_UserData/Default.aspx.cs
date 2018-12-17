@@ -20,6 +20,7 @@ namespace ASPxDashboard_UserData {
 
         // Handles the CustomDataCallback event that is used to obtain custom data from the client side.
         // On the client side, the PerformDataCallback method is called to pass data and generate CustomDataCallback.
+        // This code is used to save the current dashboard to a new file and send a new ID back to the client side
         protected void ASPxDashboard1_CustomDataCallback(object sender, CustomDataCallbackEventArgs e) {
             JavaScriptSerializer serializer = new JavaScriptSerializer();
             dynamic json = serializer.Deserialize<dynamic>(e.Parameter);

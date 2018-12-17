@@ -48,7 +48,11 @@ function onBeforeRender(sender, e) {
             comment: $("#textBoxContainer").dxTextBox("instance").option("text"),
             dashboardState: webDashboard.GetDashboardState()
         }
-        sender.PerformDataCallback(JSON.stringify(params));
+        sender.PerformDataCallback(JSON.stringify(params), function (_, result) {
+            // The dashboard was successfully saved on the server side but the client-side control is not aware about it
+            // Call the LoadDashboard method to display the new dashboard on the client side.
+            sender.LoadDashboard(result);
+        });
         $("#popupContainer").dxPopup("instance").hide();
         toolbox.menuVisible(false);
     }

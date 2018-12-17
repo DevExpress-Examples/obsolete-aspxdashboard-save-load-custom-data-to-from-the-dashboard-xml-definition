@@ -22,6 +22,7 @@ Namespace ASPxDashboard_UserData
 
         ' Handles the CustomDataCallback event that is used to obtain custom data from the client side.
         ' On the client side, the PerformDataCallback method is called to pass data and generate CustomDataCallback.
+        ' This code is used to save the current dashboard to a new file and send a new ID back to the client side
         Protected Sub ASPxDashboard1_CustomDataCallback(ByVal sender As Object, ByVal e As CustomDataCallbackEventArgs)
             Dim serializer As New JavaScriptSerializer()
             Dim json As Object = serializer.Deserialize(Of Object)(e.Parameter)

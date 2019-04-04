@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Default.aspx](./CS/ASPxDashboard_UserData/Default.aspx) (VB: [Default.aspx.vb](./VB/ASPxDashboard_UserData/Default.aspx.vb))
+* [Default.aspx](./CS/ASPxDashboard_UserData/Default.aspx) (VB: [Default.aspx](./VB/ASPxDashboard_UserData/Default.aspx))
 * [Default.aspx.cs](./CS/ASPxDashboard_UserData/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/ASPxDashboard_UserData/Default.aspx.vb))
 * [UserData.js](./CS/ASPxDashboard_UserData/Scripts/UserData.js) (VB: [UserData.js](./VB/ASPxDashboard_UserData/Scripts/UserData.js))
 <!-- default file list end -->

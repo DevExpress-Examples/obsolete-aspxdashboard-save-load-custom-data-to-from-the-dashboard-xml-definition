@@ -5,8 +5,8 @@
 * [Default.aspx.cs](./CS/ASPxDashboard_UserData/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/ASPxDashboard_UserData/Default.aspx.vb))
 * [UserData.js](./CS/ASPxDashboard_UserData/Scripts/UserData.js) (VB: [UserData.js](./VB/ASPxDashboard_UserData/Scripts/UserData.js))
 <!-- default file list end -->
-# ASPxDashboard - How to save/load the custom data to/from the dashboard XML definition
 
+# Dashboard for Web Forms - How to save/load the custom data to/from the dashboard XML definition
 
 <p>This example demonstrates how to save the custom data related to a dashboard to the dashboard XML definition and how to load this data later. In this example, the standard 'Save' menu item removed from the <a href="https://documentation.devexpress.com/#Dashboard/CustomDocument117444">Web Dashboard menu</a>. A new 'Save As' menu item allows end-users to add a custom comment appended to the dashboard XML definition. Moreover, the current <a href="https://documentation.devexpress.com/#Dashboard/CustomDocument118733">dashboard state</a> and modified date is added to the XML definition. </p>
 <p>You can load dashboards containing custom data using the 'Open' menu item. A comment and modified date form the selected dashboard is displayed within the form at the top of the web page. The loaded dashboard state is applied to the dashboard using a client-side API.<br>The following API is used to implement these capabilities
@@ -15,6 +15,11 @@
 * The <a href="https://documentation.devexpress.com/#Dashboard/DevExpressDashboardWebASPxDashboard_DashboardLoadingtopic">ASPxDashboard.DashboardLoading</a> event is handled to obtain the custom data from the UserData element when loading a dashboard.<br>- The <a href="https://documentation.devexpress.com/#Dashboard/DevExpressDashboardWebASPxDashboard_CustomJSPropertiestopic">ASPxDashboard.CustomJSProperties</a> server-side event is used to pass the custom data obtained to the client side.
 * The <a href="https://documentation.devexpress.com/#Dashboard/DevExpressDashboardWebScriptsASPxClientDashboard_DashboardChangedtopic">ASPxClientDashboard.DashboardChanged</a> event is handled to display custom data related to the selected dashboard. Moreover, the <a href="https://documentation.devexpress.com/#Dashboard/DevExpressDashboardWebScriptsASPxClientDashboard_SetDashboardStatetopic">SetDashboardState</a> method applies the dashboard state.</p>
 
-<br/>
+## Documentation
 
+- [Extensions Overview](https://docs.devexpress.com/Dashboard/117543/web-dashboard/ui-elements-and-customization/extensions-overview)
+- [Manage Dashboard State](https://docs.devexpress.com/Dashboard/118733/web-dashboard/aspnet-web-forms-dashboard-control/manage-dashboard-state?p=netframework)
 
+## More Examples
+
+- [Dashboard for Web Forms - Custom Properties](https://github.com/DevExpress-Examples/asp-net-web-forms-dashboard-custom-properties-sample)

@@ -1,3 +1,8 @@
+<!-- default badges list -->
+![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128579977/17.1.3%2B)
+[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T520934)
+[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+<!-- default badges end -->
 # Dashboard for Web Forms - How to save/load the custom data to/from the dashboard XML definition
 
 <p>This example demonstrates how to save the custom data related to a dashboard to the dashboard XML definition and how to load this data later. In this example, the standard 'Save' menu item removed from the <a href="https://documentation.devexpress.com/#Dashboard/CustomDocument117444">Web Dashboard menu</a>. A new 'Save As' menu item allows end-users to add a custom comment appended to the dashboard XML definition. Moreover, the current <a href="https://documentation.devexpress.com/#Dashboard/CustomDocument118733">dashboard state</a> and modified date is added to the XML definition. </p>
